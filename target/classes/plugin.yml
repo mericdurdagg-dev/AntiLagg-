@@ -1,0 +1,28 @@
+name: AntiLagg
+
+version: 4.0.8
+
+main: org.antilagg.AntiLagg
+
+api-version: '1.21'
+
+author: meric9778
+
+description: Advanced anti-lag and optimization plugin for Paper servers.
+  Improves TPS, clears unnecessary entities, optimizes chunks,
+  monitors server performance and protects your server from lag spikes.
+
+website: https://modrinth.com/user/meric9778
+
+commands:
+
+  antilagg:
+    description: Main AntiLagg command
+    usage: /antilagg
+    aliases: [al]
+
+permissions:
+
+  antilagg.admin:
+    description: Full access to AntiLagg
+    default: op

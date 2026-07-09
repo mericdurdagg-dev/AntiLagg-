@@ -1,0 +1,140 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                       Notes                          | #
+# +------------------------------------------------------+ #
+############################################################
+# ALL RIGHTS RESERVED
+# This is the config file for AntiLagg.
+# This config was generated for version 1.0.0-10.0.0.
+############################################################
+# +------------------------------------------------------+ #
+# |                    AntiLagg Config                   | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Made by meric9778
+
+settings:
+
+  # Plugin Prefix
+  prefix: "&8[&aAntiLagg&8] "
+
+  # =========================
+  # CLEANUP SETTINGS
+  # =========================
+  cleanup:
+
+    # Enable automatic cleanup
+    auto: true
+
+    # Cleanup interval in seconds
+    interval-seconds: 300
+
+    # Remove dropped items
+    remove-items: true
+
+    # Remove XP orbs
+    remove-xp-orbs: true
+
+    # Remove arrows
+    remove-arrows: true
+
+    # Remove snowballs
+    remove-snowballs: true
+
+    # Remove fireballs
+    remove-fireballs: true
+
+  # =========================
+  # ENTITY LIMITS
+  # =========================
+  limits:
+
+    # Max entities per world
+    entity-limit: 2000
+
+    # Max entities per chunk
+    chunk-entity-limit: 120
+
+  # =========================
+  # UPDATE CHECKER
+  # =========================
+  update-check:
+
+    enabled: true
+
+  # =========================
+  # TPS PROTECTION
+  # =========================
+  tps-protection:
+
+    enabled: true
+
+    warning-threshold: 5.0
+
+    danger-threshold: 4.0
+
+    emergency-threshold: 3.0
+
+  # =========================
+  # PERFORMANCE
+  # =========================
+  performance:
+
+    enable-async-cleaner: true
+
+    optimize-chunks: true
+
+  # =========================
+  # TOGGLE SETTINGS (NEW SYSTEM)
+  # =========================
+  mobspawn: true
+
+  itemdrop: true
+
+  redstone: true
+
+  hopper: true
+  ############################################################
+  # +------------------------------------------------------+ #
+  # |                   AntiLagg Messages                  | #
+  # +------------------------------------------------------+ #
+  ############################################################
+
+  messages:
+
+    # =========================
+    # GENERAL
+    # =========================
+    no-permission: "&cYou don't have permission!"
+
+    reload: "&aConfiguration reloaded successfully!"
+
+    clear: "&cLag cleanup completed!"
+
+    stats: "&7Plugin is running normally."
+
+    unknown-command: "&cUnknown subcommand."
+
+    # =========================
+    # TPS
+    # =========================
+    tps-warning: "&eServer TPS is dropping!"
+
+    tps-danger: "&cDangerous TPS level detected!"
+
+    tps-emergency: "&4Emergency lag mode activated!"
+
+    # =========================
+    # CLEANUP
+    # =========================
+    cleanup-started: "&7Automatic cleanup started."
+
+    cleanup-finished: "&aCleanup finished successfully."
+
+    # =========================
+    # UPDATE CHECKER
+    # =========================
+    update-found: "&eA new update is available!"
+
+    no-update: "&aYou are using the latest version."
